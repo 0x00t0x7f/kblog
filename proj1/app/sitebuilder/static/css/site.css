@@ -1,0 +1,20 @@
+body {
+    padding: 50px 0 30px;
+}
+
+p {
+    color: #777777;
+}
+
+footer  p {
+    color: #262626;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #5ca8e8;
+}
+
+.jumbotron div h2{
+    text-align: center;
+}
