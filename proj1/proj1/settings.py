@@ -128,4 +128,7 @@ STATICFILES_DIRS = (
 )
 
 SITE_PAGES_DIRECTORY = os.path.join(BASE_DIR, "static_pages_content")
+SITE_OUTPUT_DIRECTORY = os.path.join(BASE_DIR, "_build")
+STATIC_ROOT = os.path.join(BASE_DIR, "_build", "static")
+
 

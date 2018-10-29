@@ -10,9 +10,15 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/site.css' %}">
 </head>
-<body id="{% block  body-id %}body{% endblock %}">
+<body id="{% block body-id %}body{% endblock %}">
     {% block  content %}{% endblock %}
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+<footer style="margin-top: 20px;">
+    <div class="container">
+        <p>&copy; 1999-2017 Meiya Pico. All Right Reserived. 闽ICP备09012547号 {% now 'Y' %}</p>
+    </div>
+</footer>
 </body>
 </html>
